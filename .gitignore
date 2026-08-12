@@ -1,0 +1,38 @@
+# Local runtime and private data
+backend/.runtime/
+backend/.venv/
+backend/.env
+.env
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.pid
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+pnpm-debug.log*
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Local exports and archives
+*.zip
+*.7z
+*.tar
+*.tgz
+outputs/
